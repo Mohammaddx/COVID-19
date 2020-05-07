@@ -32,7 +32,12 @@ const App = () => {
         fetchData={fetchData}
       />
       <Chart country={country} data={data} />
-      <span className={styles.span}>By Mohammad Ahmad 🙆 </span>
+      <span className={styles.span}>
+        By{" "}
+        <a href="https://mohammadqp-devcode.netlify.app/" target="_blank">
+          Mohammad Ahmad 🙆
+        </a>{" "}
+      </span>
     </div>
   );
 };
