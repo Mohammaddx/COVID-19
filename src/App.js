@@ -32,6 +32,7 @@ const App = () => {
         fetchData={fetchData}
       />
       <Chart country={country} data={data} />
+      <span className={styles.span}>By Mohammad Ahmad 🙆 </span>
     </div>
   );
 };
